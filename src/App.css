@@ -12,9 +12,9 @@ html, body{
 }
 
 .container{
-    padding: 10px;
-    width: 90%;
-    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .cards{
@@ -22,4 +22,39 @@ html, body{
     background-color: transparent;
     height: 300px;
     perspective: 1000px;
+}
+
+header {
+    height: 200px;
+}
+
+header img{
+    width: 200px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-back{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.card li{
+    list-style: none;
+}
+
+@media (max-width:800px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
