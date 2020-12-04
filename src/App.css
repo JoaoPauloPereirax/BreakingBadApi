@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-body{
-    margin: 0px;
+html, body{
+    background: #000 url('./img/bg.jpg') no-repeat center center/cover;
     height: 100vh;
     border: 5px solid black;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,4 +15,11 @@ body{
     padding: 10px;
     width: 90%;
     text-align: center;
+}
+
+.cards{
+    cursor: pointer;
+    background-color: transparent;
+    height: 300px;
+    perspective: 1000px;
 }
