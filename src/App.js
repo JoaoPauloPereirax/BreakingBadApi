@@ -3,6 +3,7 @@ import React, {useState,useEffect} from 'react';
 import './App.css';
 import Header from './components/ui/Header';
 import CharacterGrid from './components/characters/CharacterGrid';
+import Search from './components/ui/Search';
 
 function App() {
 
@@ -25,7 +26,9 @@ function App() {
  return (
    <div className="container">
      <Header/>
+     <Search/>
      <CharacterGrid isLoading={isLoading} items={items}/>
+     
    </div>
  );
 }

@@ -26,6 +26,7 @@ html, body{
 
 header {
     height: 200px;
+    text-align: center;
 }
 
 header img{
@@ -53,8 +54,18 @@ header img{
     list-style: none;
 }
 
+.search {
+    height: 100px;
+}
+
 @media (max-width:800px){
     .cards{
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px){
+    .cards{
+        grid-template-columns: 1fr;
     }
 }
