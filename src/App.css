@@ -11,11 +11,7 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 20px;
-}
+
 
 .cards{
     cursor: pointer;
@@ -23,16 +19,6 @@ html, body{
     height: 300px;
     perspective: 1000px;
 }
-
-header {
-    height: 200px;
-    text-align: center;
-}
-
-header img{
-    width: 200px;
-}
-
 .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -52,7 +38,41 @@ header img{
 
 .card li{
     list-style: none;
+    padding-bottom: 8px;
 }
+
+.card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    height: 200px;
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+}
+
+input[type='text']{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    margin: auto;
+    border: 0;
+    border-radius: 5px;
+    width: 60%;
+}
+
 
 .search {
     height: 100px;
