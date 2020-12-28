@@ -1,9 +1,10 @@
-import axios from 'axios';
+import React, {useState,useEffect} from 'react'
 import './styles.css'
-import React, {useState,useEffect} from 'react';
-import Header from '../../components/ui/Header';
-import CharacterGrid from '../../components/characters/CharacterGrid';
-import Search from '../../components/ui/Search';
+
+import axios from 'axios'
+
+import CharacterGrid from '../../components/CharacterGrid';
+import Search from '../../components/Search';
 
 function Home() {
 
@@ -27,10 +28,8 @@ function Home() {
 
  return (
    <div className="container">
-     <Header/>
      <Search getQuery={(q)=> setQuery(q)}/>
      <CharacterGrid isLoading={isLoading} items={items}/>
-     
    </div>
  );
 }
