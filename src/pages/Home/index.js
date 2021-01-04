@@ -1,10 +1,11 @@
 import React, {useState,useEffect} from 'react'
 import './styles.css'
 
-import axios from 'axios'
+import Api from './../../services/Api'
 
 import CharacterGrid from '../../components/CharacterGrid';
 import Search from '../../components/Search';
+import Header from '../../components/Header'
 
 function Home() {
 
@@ -16,7 +17,7 @@ function Home() {
 
   useEffect(()=>{
     const fetchItems = async ()=>{
-      const result = await axios(`https://www.breakingbadapi.com/api/characters?name=${query}`)
+      const result = await Api.get(`?name=${query}`)
       setItems(result.data);
       //console.log(result.data);
       setIsLoading(false);
@@ -28,6 +29,7 @@ function Home() {
 
  return (
    <div className="container">
+     <Header/>
      <Search getQuery={(q)=> setQuery(q)}/>
      <CharacterGrid isLoading={isLoading} items={items}/>
    </div>

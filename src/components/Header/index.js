@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo.png';
  const Header = ()=>{
     return (
         <header className='center'>
-            <img src={logo} alt='' />
+            <img src={logo} alt='logo' />
         </header>
     );
  }
