@@ -1,5 +1,8 @@
-import React from 'react';
+import React from 'react'
+
 import spinner from '../../assets/images/spinner.gif';
+
+
 const Spinner = ()=>{
     return (
     <img src={spinner} alt="Spinner" />

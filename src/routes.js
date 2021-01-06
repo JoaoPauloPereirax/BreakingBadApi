@@ -1,6 +1,6 @@
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
 import Home from './pages/Home'
-import Characters from './pages/Characters'
+import Character from './pages/Character'
 
 
 export default function Routes (){
@@ -8,7 +8,7 @@ export default function Routes (){
    <BrowserRouter>
       <Switch>
          <Route exact path="/" component={Home} />
-         <Route path="/characters/:id" component={Characters} />
+         <Route path="/characters/:id" component={Character} />
       </Switch>
    </BrowserRouter>
    )
