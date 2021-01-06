@@ -1,14 +1,12 @@
 import React from 'react';
 import './styles.css'
 
-import { Link } from "react-router-dom";
 
 
 
 const CharacterItem = ({item})=>{
     return(
     <div className="card">
-        <Link to={`/characters/${item.char_id}`} >
         <div className="card-inner">
             <div className="card-front">
                 <img src={item.img} alt={item.name}/>
@@ -31,7 +29,6 @@ const CharacterItem = ({item})=>{
                 </ul>
             </div>
         </div>
-        </Link>
     </div>
     );
 }

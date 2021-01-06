@@ -1,5 +1,5 @@
 import React from 'react';
-import CharacterItem from '../CharacterItem';
+import CharacterItemGrid from '../CharacterItemGrid';
 import Spinner from '../Spinner';
 
 const CharacterGrid = ({items, isLoading})=>{
@@ -7,7 +7,7 @@ const CharacterGrid = ({items, isLoading})=>{
     return(
         isLoading ? (<Spinner/>):(<section className="cards">
             {items.map((item)=>(
-                <CharacterItem key={item.char_id} item={item}></CharacterItem>
+                <CharacterItemGrid key={item.char_id} item={item}></CharacterItemGrid>
             ))}
         </section>)
     );
