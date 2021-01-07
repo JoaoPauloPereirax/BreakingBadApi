@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h4 align="center">
+<img src="./src/assets/images/logo.png" width="250px" /><br>
+ <strong align="center">A front-end project to study the consumption of API's</strong>
+</h4>
+<p align="center">
+  <a href="https://breakingbadapi.com/">
+    <img alt="Made by Breaking Bad API" src="https://img.shields.io/badge/API-breaking%20bad-brightgreen">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heart_eyes-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-author">Author</a>
+</p>
 
-## Available Scripts
+<br>
+<a href="https://breaking-bad-react-app.joaopaulopereirax.vercel.app/" >
+   <p align="center">
+   <img alt="Breaking Bad" src="./src/assets/images/layout.png" width="100%">
+   </p>
+</a>
 
-In the project directory, you can run:
+## :page_with_curl: About
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :wrench: Built With
 
-### `npm test`
+- [React](https://reactjs.org)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :heart_eyes: How to Use
 
-### `npm run build`
+#### :keyboard: Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See how the Back-end works and how to use in this page: [Backend](https://breakingbadapi.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 💻 Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See how the Front-end works and how to use in this page: [Frontend](https://github.com/JoaoPauloPereirax/breaking-bad-react-app)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🤔 How to Contribute
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Clone the project: `git clone https://github.com/JoaoPauloPereirax/breaking-bad-react-app.git`;
+- Create your branch with your feature: `git checkout -b my-feature`;
+- Commit your feature: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Then merge your pull request, you can now delete your branch.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :pencil: Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/JoaoPauloPereirax"><img src="https://avatars0.githubusercontent.com/u/68456831?s=400&u=27ce6a65a7d84906d6955d58c660c00d7cfa14a0&v=4" width="100px;" alt=""/><br /><sub><b>João Paulo Pereira</b></sub></a><br /></td>
+  <tr>
+</table>
