@@ -25,7 +25,7 @@
 
 ## :page_with_curl: About
 
-
+-  This page has the idea to study the consumption of APIs. We can find the tutorial here: [Breaking Bad Tutorial](https://www.youtube.com/watch?v=YaioUnMw0mo&feature=share&fbclid=IwAR1dV3TRQyLHzjrf2CIroLuLMmsowQNBnqx4_UVtC8EJXTkEscSutSWlhm4)
 
 ## :wrench: Built With
 
