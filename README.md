@@ -7,6 +7,13 @@
     <img alt="Made by Breaking Bad API" src="https://img.shields.io/badge/API-breaking%20bad-brightgreen">
   </a>
 </p>
+<h3 align="center">Site hosted on:</h3>
+<p align="center">
+
+  <a href="https://breaking-bad-react-app.joaopaulopereirax.vercel.app/">
+    <img alt="Braking Bad" src="https://img.shields.io/badge/Breaking%20Bad-Vercel-brightgreen"/>
+  </a>
+</p>
 
 <p align="center">
   <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
