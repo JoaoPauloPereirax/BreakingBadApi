@@ -7,13 +7,13 @@ function Character() {
   const params = useParams();
   const userId = params.id;
 
-  const [item, setItem] = useState({});
+  const [character, setCharacter] = useState({});
 
   useEffect(() => {
     const fetchItem = async () => {
       const result = await Api.get(`/${userId}`);
-      const character = result.data[0];
-      setItem(character);
+      const characterApi = result.data[0];
+      setCharacter(characterApi);
       console.log(result.data);
     };
 
@@ -22,7 +22,14 @@ function Character() {
 
   return (
     <section className="card">
-      {<CharacterItem key={item.char_id} item={item}></CharacterItem>}
+      <CharacterItem
+        birthday={character.birthday}
+        img={character.img}
+        name={character.name}
+        portrayed={character.portrayed}
+        status={character.status}
+        nickname={character.nickname}
+      />
     </section>
   );
 }

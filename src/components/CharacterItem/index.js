@@ -1,36 +1,44 @@
-import React from 'react';
-import './styles.css'
+import React from "react";
+import "./styles.css";
 
-
-
-
-const CharacterItem = ({item})=>{
-    return(
+const CharacterItem = ({
+  img,
+  name,
+  portrayed,
+  nickname,
+  birthday,
+  status,
+}) => {
+  return (
     <div className="card">
-        <div className="card-inner">
-            <div className="card-front">
-                <img src={item.img} alt={item.name}/>
-            </div>
-            <div className="card-back">
-                <h1>{item.name}</h1>
-                <ul>
-                    <li>
-                        <strong>Actor Name: </strong>{item.portrayed}
-                    </li>
-                    <li>
-                        <strong>Nickname: </strong>{item.nickname}
-                    </li>
-                    <li>
-                        <strong>Birthday: </strong>{item.birthday}
-                    </li>
-                    <li>
-                        <strong>Status: </strong>{item.status}
-                    </li>
-                </ul>
-            </div>
+      <div className="card-inner">
+        <div className="card-front">
+          <img src={img} alt={name} />
         </div>
+        <div className="card-back">
+          <h1>{name}</h1>
+          <ul>
+            <li>
+              <strong>Actor Name: </strong>
+              {portrayed}
+            </li>
+            <li>
+              <strong>Nickname: </strong>
+              {nickname}
+            </li>
+            <li>
+              <strong>Birthday: </strong>
+              {birthday}
+            </li>
+            <li>
+              <strong>Status: </strong>
+              {status}
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    );
-}
+  );
+};
 
 export default CharacterItem;
